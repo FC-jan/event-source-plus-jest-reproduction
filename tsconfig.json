@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Create React App",
+
+
+    "compilerOptions": {
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "module": "esnext",
+      "target": "es2017",
+
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": false,
+      "incremental": true,
+      "isolatedModules": false,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "noEmit": false,
+      "noFallthroughCasesInSwitch": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "types": ["jest"]
+    },
+
+    "include": ["./assets/**/*"]
+  }
